@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>빙그레</title>
+		<style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #wrapper {
+				width: 600px;
+                
+				margin: 0 auto;
+			}
+            #container{
+                background-image: url('image/background.jpg');
+                height: 1000px;
+                background-repeat: no-repeat;
+                background-size:cover;
+                padding:70px;
+            }
+             #container>p{ 
+                 margin: 30px 0; 
+             } 
+             #container>p:nth-of-type(1){
+                color: red;
+                font-weight: bolder;
+            } 
+            #container>p:nth-child(3){
+                color: red;
+                font-weight: bolder; 
+                
+
+            }
+
+           
+            #container>p:nth-of-type(3){
+            
+                background-color: white;
+                color: red;
+                width: 200px;
+                text-align: center;
+                padding: 20px 0;
+                border-radius: 30px; 
+                
+            }
+            #container>p:nth-of-type(3):hover{
+                background-color: black;
+                color: white;
+
+            }
+            #container{
+                position: absolute;
+            }
+            .banana{
+                width: 120%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            .c{
+                position:absolute;
+                bottom: 0px;
+                right: 0px;    
+            }
+            .a{
+                
+                float: left;
+                width: 100px;
+            
+            }
+            .b{
+              
+                float: right;
+                width: 150px;
+            }
+            .clear{
+                clear:both;
+            }
+            #header div{
+                display: inline-block;
+            }
+            
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+                <div class="a">빙그레</div>
+                <div class="clear"></div>
+                <div class="b">메뉴</div>
+                <div class="clear"></div>
+			</div>
+			<div id="container">
+				<h1>빙그레</h1>
+				<h1 class="text2">다양한 맛과 행복으로 <br />모두 하나되는 세상</h1>
+				<p >우유/가공유</p>
+				<p>
+					고객만족을 넘어서 함께 더 나은 세상을 만드는 것<br />
+					그것이 바로 빙그레의 가치입니다.
+				</p>
+				<p>자세히 보기</p>
+                <img src="image/banana.png" class="banana" > 
+                <img src="image/circle.png" class="c">
+                
+			</div>
+		</div>
+	</body>
+</html>
